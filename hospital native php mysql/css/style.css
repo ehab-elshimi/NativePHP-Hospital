@@ -1,0 +1,51 @@
+*{
+    font-family: "Janna LT";
+
+    box-sizing: border-box;
+    direction:rtl;
+}
+.logo{
+    text-align: center;
+    margin: 40px 0;
+    color:#00a9b0;
+}
+.logo img{
+    width:100px;
+}
+
+.logo h2{
+    font-size: 30px;
+    font-weight:500;
+}
+
+.book{
+    text-align: center;
+}
+.book p{
+    font-size: 20px;
+}
+.book input{
+    width:50%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.book input[type="submit"]{
+    font-size:16px;
+    color: #fff;
+    background-color: #00a9b0;
+    border:none;
+}
+.book input[type="date"]{
+    -webkit-rtl-ordering: visual;
+}
+table{
+    width:100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th{
+    background-color: #00a9b0;
+    color:#fff;
+    padding:5px 0;
+}
